@@ -136,6 +136,15 @@ header {
     color: #9093A6;
     outline: none;
     border: none;
+    transition: 1s;
+} 
+button:hover{
+    transform: scale(1.2);
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+.lower-part-section-first:hover{
+    transform: scale(1.1);
 }
 .section2-lower-part{
     width: 1256px;
@@ -147,6 +156,7 @@ header {
 .lower-part-section-first{
     width: 296px;
     height: 296px;
+    transition: 1s;
 }
 .first-section-image{
     width: 296px;
@@ -229,7 +239,10 @@ header {
     width: 1256px;
     height: 232px;
     margin: 60px auto;
-    border: 2px solid green;
+   
+}
+.bagel{
+    box-shadow: 2px 2px 5px grey;
 }
 .section4-lower-part{
     width: 1256px;
@@ -248,6 +261,7 @@ header {
     height: 48px;
    padding-top: 20px;
    padding-left: 35px;
+   transition: 0.7s;
 }
 .bagel-bottom{
     width: 120px;
@@ -255,6 +269,10 @@ header {
     padding-top: 30px;
     padding-left: 38px;
     font-size: 14px;
+}
+.bagel:hover .bagel-top{
+    transform: scale(1.2);
+    margin-left: -5px;
 }
 
 .arrow{
@@ -268,6 +286,10 @@ header {
     position: absolute;
     top: 1720px;
     right: 1365px;
+    transition: 1s;
+}
+.arrow:hover{
+    transform: scale(1.2)
 }
 .arrow2{
     width: 48px;
@@ -280,10 +302,12 @@ header {
     position: absolute;
     top: 1720px;
     right: 105px;
+    transition: 1s;
 }
 
-
-
+.arrow2:hover{
+    transform: scale(1.2)
+}
 
 .section5{
     max-width: 1520px;
@@ -298,6 +322,10 @@ header {
     width: 1280px;
     height: 600px;
     margin: 30px auto;
+}
+.section6 iframe{
+    width: 100%;
+    height: 100%;
 }
 .section7{
     width: 1256px;
@@ -320,10 +348,14 @@ header {
     display: flex;
     gap: 22px;
 }
+.lower-first:hover{
+    transform: scale(1.1);
+}
 .lower-first{
     width: 296px;
     height: 299px;
-}
+    transition: 1s;
+   }
 
 footer{
     width: 100%;
